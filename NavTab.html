@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav With Tabs In Bootstrap</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body class="container-fluid">
+    <!-- Main Heading -->
+    <h1 class="m-4">UI Full Stack Web Development</h1>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs m-4">
+        <li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#html">HTML</a> </li>
+        <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#css">CSS</a> </li>
+        <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#js">JavaScript</a> </li>
+        <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#bootstrap">Bootstrap</a> </li>
+        <!--  - anchor <a> href refers to tab-id -->
+    </ul>
+
+    <!-- HTML Content -->
+    <div class="tab-content m-4 pt-4">
+        <div class="tab-pane active " id="html">
+            <div class="d-flex align-items-center">
+                <img height="250" class="height-" src="../Images/html-logo.png" alt="html-logo">
+                <p class="fs-5 p-3 w-25">HTML stands for Hyper Text Markup Language, which is used to create the
+                    structure of Web Page or Website.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS Content -->
+    <div class="tab-content m-4">
+        <div class="tab-pane" id="css">
+            <div class="d-flex align-items-center">
+                <img height="250" src="../Images/css-logo.png" alt="css-logo">
+                <p class="fs-5 p-3 w-25">CSS stands for Cascading Style Sheet, which is used for styling the document.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Content -->
+    <div class="tab-content m-4">
+        <div class="tab-pane" id="js">
+            <div class="d-flex align-items-center">
+                <img height="250" src="../Images/js-logo.png" alt="js-logo">
+                <p class="fs-5 p-3 ps-5 w-25">JavaScript is a programming language used for scripting the web pages, making
+                    them interactive and
+                    dynamic.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap Content -->
+    <div class="tab-content m-4">
+        <div class="tab-pane" id="bootstrap">
+            <div class="d-flex align-items-center">
+                <img height="200" src="../Images/bootstrap-logo.jpg" alt="bootstrap-logo">
+                <p class="fs-5 p-3 ps-5 w-25">Bootstrap is an open source, cross platform library to build interactive
+                    UI
+                    rapidly.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
